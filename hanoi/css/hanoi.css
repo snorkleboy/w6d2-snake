@@ -1,0 +1,36 @@
+.hanoi {
+  display: flex;
+  justify-content: center;
+}
+
+.tower {
+  display: flex;
+  flex-direction: column-reverse;
+  border-bottom: 10px solid black;
+  margin: 10px;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+.disc {
+  display: block;
+  background-color: gray;
+  border-radius: 10px;
+  height: 15px;
+  margin: 2px;
+}
+
+.disc-1 {
+  width: 5px;
+}
+
+.disc-2 {
+  width: 10px;
+}
+
+.disc-3 {
+  width: 15px;
+}
